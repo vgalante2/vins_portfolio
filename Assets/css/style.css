@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+:root {
+    --main-color: rgb(151, 99, 215);
+    --main-font: "Bungee", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+  background-color: black;
+  display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   padding: 15px 20px;
+}
+
+header h1 {
+    color: white;
+    font-family: var(--main-font);
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 8px;
+position: relative;
+font-family: var(--main-font);
+}
+
+nav a:after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: var(--main-color); 
+    position: absolute; 
+    bottom: -5px;
+    left: 0; 
+    transition: width 1s ; 
+}
+
+nav a:hover:after {
+    width: 100%; 
+}
+
+.hero {
+    height: 20%;
+    width: 100%;
+    background-image:  url("/Assets/hero.jpg");
+    background-size: cover;
+
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-text h1 {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: var(--main-font);
+}
+
+.hero-text p {
+    color: var(--main-color);
+    font-family: var(--main-font);
+}
+
+.about {
+    height: 30%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0 5px;
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding: 10px 0;
+}
+
+.about-text p {
+    width: 65%;
+    font-size: 1rem;
+}
+
+.about-text h1 {
+    font-size: 2.5rem;
+    width: 10%;
+    text-align: right;
+   
+}
+
+.line {
+    width: 5px;
+    height: 80%;
+    background-color: black;
+    
+}
+
+
+
+
