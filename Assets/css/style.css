@@ -55,7 +55,7 @@ nav a:hover:after {
 .hero {
     height: 20%;
     width: 100%;
-    background-image:  url("../images/hero.jpg");
+    background-image:  url("/Assets/images/hero.jpg");
     background-size: cover;
 
 }
@@ -215,7 +215,7 @@ figure a {
     grid-column: 1 / 3;
     grid-row: 1/3;
     background-color: rgb(0, 0, 0);
-    background-image: url("../images/btc.jpg");
+    background-image: url("/Assets/images/btc.jpg");
     background-size: cover;
     background-position: center;
 
@@ -225,26 +225,26 @@ figure a {
 
 
 .work-container figure:nth-child(2) {
-   background-image: url("../images/dreamstay.jpg");
+   background-image: url("/Assets/images/dreamstay.jpg");
    background-size: cover;
    background-position: center bottom;
 
 }
 
 .work-container figure:nth-child(3) {
-    background-image: url("../images/speech.jpeg");
+    background-image: url("/Assets/images/speech.jpeg");
     background-size: cover;
     background-position: center;
  }
 
  .work-container figure:nth-child(4) {
-    background-image: url("../images/vinchy.png");
+    background-image: url("/Assets/images/vinchy.png");
     background-size: cover;
     background-position: center top;
  }
 
  .work-container figure:nth-child(5) {
-    background-image: url("../images/pillar.jpg");
+    background-image: url("/Assets/images/pillar.jpg");
     background-size: cover;
     background-position: center top;
  }
