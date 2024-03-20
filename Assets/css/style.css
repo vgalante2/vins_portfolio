@@ -196,7 +196,7 @@ figure {
 figure.work-item {
     font-size: 0.7rem;
   border-radius: 10px;
-  border: 5px solid var(--main-color);
+  border: 3px solid var(--main-color);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -204,7 +204,10 @@ figure.work-item {
   
 }
 
-
+figure a {
+    text-decoration: none;
+    color: white;
+}
 
 
 
@@ -293,6 +296,7 @@ figure.work-item {
 font-size: 2rem;
 color: var(--main-color);
 font-family: var(--main-font);
+cursor: pointer;
 }
 
 
@@ -311,12 +315,59 @@ font-family: var(--main-font);
         font-size: 1.2rem;
     }
 
+
+    .about-heading {
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .about.about-heading {
+        width: 45%;
+        font-size: 2.5rem;
+        text-align: right
+    }
+
+    .about-text p {
+        width: 40%;
+        font-size: 0.5rem;
+    }
+    
+    main {
+     padding: 5px 2px;
+    } 
+
     main .heading-box h1 {
         width: 45%;
         font-size: 1.2rem;
        
     }
 
+    .work-container {
+        width: 45%; 
+       display: flex;
+       flex-direction: column;
+      }
+
+      figure.work-item {
+        font-size: 0.4rem;
+      border-radius: 10px;
+      border: 4px solid var(--main-color);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+
+    div.work-text-box {
+        width: max-content;
+        background-color: var(--main-color);
+        border-radius: 4px;
+        padding: 2px 5px;
+        text-align: center;
+        color: white;
+       font-family: var(--main-font);
+    }
 
     .contact-heading{
        justify-content: space-between;
@@ -349,7 +400,9 @@ font-family: var(--main-font);
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 100%;
+            width: 80%;
             gap: 5px;
          }
+
+         
 }
