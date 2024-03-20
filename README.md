@@ -6,12 +6,12 @@ Welcome to my portfolio I'm vin, a passionate web developer with a focus on full
 
 ## Visuals
 
-<img src="./assets/images/pic.png" >
+<img src="./Assets/images/pic.png" >
 
 
 ## Deployment
 
-Provided as a link here - [Module 01](Your_REPO_LINK)
+Provided as a link here - [Module 01](https://vgalante2.github.io/vins_portfolio/)
 
 ## Usage
 
