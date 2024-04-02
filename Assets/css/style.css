@@ -106,7 +106,11 @@ nav a:hover:after {
 
 .about .img {
     height: 60%;
+    width: 20%;
     border-radius: 60%;
+    background-image: url("../images/avatar.jpg");
+   background-size: cover;
+   background-position: left center ;
 }
 
 .about-text {
