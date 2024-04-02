@@ -80,10 +80,11 @@ nav a:hover:after {
 }
 
 .about {
-    height: 30%;
+    height: 50%;
     width: 100%;
     background-color: rgb(255, 255, 255);
    display: flex;
+   flex-direction: column;
    align-items: center;
    justify-content: center;
    padding: 0 5px;
@@ -98,8 +99,14 @@ nav a:hover:after {
 .about-heading {
     display: flex;
     height: 80%;
+    align-items: center;
     justify-content: space-around;
     gap: 15px;
+}
+
+.about .img {
+    height: 60%;
+    border-radius: 60%;
 }
 
 .about-text {
@@ -111,7 +118,7 @@ nav a:hover:after {
 }
 
 .about-text p {
-    width: 70%;
+    width: 50%;
     font-size: 1rem;
 }
 
