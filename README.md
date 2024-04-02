@@ -6,7 +6,7 @@ Welcome to my portfolio I'm vin, a passionate web developer with a focus on full
 
 ## Visuals
 
-<img src="./Assets/images/pic.png" >
+<img src="./Assets/images/imgsite.png" >
 
 
 ## Deployment
